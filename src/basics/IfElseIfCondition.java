@@ -6,7 +6,7 @@ public class IfElseIfCondition {
 		int x = 100;
 		int y = 50;
 		
-		if (x ==y) {
+		if (x==y) {
 			System.out.println("Equal To");
 		}else if(x < y) {
 			System.out.println("Less Than");
