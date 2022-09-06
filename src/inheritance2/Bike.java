@@ -14,8 +14,8 @@ public class Bike extends Vehicle {
 		return handle;
 	}
 
-	public Bike(String handle) {
-		super();
+	public Bike(String handle,String engine, int wheels, int seats, int fuelTank, String lights) {
+		super(engine,wheels,seats,fuelTank,lights);
 		this.handle = handle;
 	}
 	
