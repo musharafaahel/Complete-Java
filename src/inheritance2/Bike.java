@@ -18,5 +18,13 @@ public class Bike extends Vehicle {
 		super(engine,wheels,seats,fuelTank,lights);
 		this.handle = handle;
 	}
+
+	@Override
+	public String toString() {
+		return "Bike [getHandle()=" + getHandle() + ", getEngine()=" + getEngine() + ", getWheels()=" + getWheels()
+				+ ", getSeats()=" + getSeats() + ", getFuelTank()=" + getFuelTank() + ", getLights()=" + getLights()
+				+ "]";
+	}
+	
 	
 }
